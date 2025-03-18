@@ -1,0 +1,98 @@
+.Tarjetas{
+    padding: 3vh;
+}
+
+.titulo_tarjeta{
+    font-weight: bold;
+}
+
+.miinicio{
+    color: rgb(90, 108, 124);
+}
+
+.cuadrado {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rectangulo{
+    max-height: 50vh;
+}
+
+.logo-reducido{
+    width: 15%;
+    height: auto;
+    padding-left: 10vh;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+@media (max-width: 600px) {
+    .logo-reducido {
+        width: 30%; 
+    }
+
+    .Tarjetas {
+        padding: 2vh; 
+    }
+
+    .titulo_tarjeta {
+        font-size: 1.2rem; 
+    }
+
+    .rectangulo {
+        max-height: 40vh; 
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .logo-reducido {
+        width: 20%; 
+    }
+
+    .Tarjetas {
+        padding: 2.5vh; 
+    }
+
+    .titulo_tarjeta {
+        font-size: 1.5rem; 
+    }
+
+    .rectangulo {
+        max-height: 45vh; 
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .logo-reducido {
+        width: 15%; 
+    }
+
+    .Tarjetas {
+        padding: 5vh;
+    }
+
+    .titulo_tarjeta {
+        font-size: 1.8rem; 
+    }
+
+    .rectangulo {
+        max-height: 50vh; 
+    }
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+

@@ -1,0 +1,244 @@
+.sidebar {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.blog-entry {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.justificado{
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.centrado{
+    text-align: center;
+    
+}
+
+.sangria{
+    text-indent: 20px;
+}
+
+.img-side {
+    float: right;
+    margin-right: 15px;
+    width: 60vh;
+    margin: 20px;
+}
+
+.al_lado {
+
+    position: fixed;
+    margin-left: 50%;
+    margin-top: 10%;
+    text-align: center;
+}
+   
+.home-button {
+    background: linear-gradient(90deg, #000000, #333333); 
+    color: white;
+    border: 2px solid #ffffff; 
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.home-button span {
+    position: relative;
+    z-index: 1;
+}
+
+.home-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2); 
+    transition: left 0.3s ease;
+    border-radius: 50px;
+}
+
+.home-button:hover::before {
+    left: 0;
+}
+
+.home-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.2); 
+}
+
+.home-button:active {
+    transform: scale(0.95);
+    background: linear-gradient(90deg, #333333, #000000);
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.text-white {
+    color: white;
+}
+
+.p-4 {
+    padding: 16px; 
+}
+
+
+.header-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+
+.button-container {
+    flex: 0 0 auto; 
+}
+
+
+.text-container {
+    flex: 1; 
+    text-align: center; 
+}
+
+
+.home-button {
+    background: linear-gradient(90deg, #000000, #333333); 
+    color: white;
+    text-decoration: none; 
+    border: 2px solid #ffffff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-button:hover {
+    background: linear-gradient(90deg, #333333, #000000);
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.imagen{
+    width: 50vh; 
+    height: auto; /* Ajusta según necesites */
+    object-fit: cover;
+}
+
+/* Media Queries */
+
+/* Estilos generales para móviles */
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button-container {
+        margin-bottom: 10px;
+    }
+
+    .text-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .blog-entry img {
+        width: 100%;
+        height: auto;
+    }
+
+    aside {
+        margin-top: 20px;
+    }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    .text-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .text-container p {
+        font-size: 0.9rem;
+    }
+
+    .justificado {
+        font-size: 0.9rem;
+    }
+
+    .img-side {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+/* Estilo para mostrar tooltip en el enlace de contacto */
+.tooltip-email {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.tooltip-email .tooltip-text {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 150%; /* Aparece arriba del enlace */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+}
+
+.tooltip-email:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
