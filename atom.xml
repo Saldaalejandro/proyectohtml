@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <!-- Información del canal -->
+ 
     <title>Portfolio de Alejandro</title>
     <link href="https://saldaalejandro.github.io/proyectohtml/" />
     <updated>2025-03-21T12:00:00+01:00</updated>
@@ -11,11 +11,11 @@
     <id>https://saldaalejandro.github.io/proyectohtml/</id>
     <subtitle>Mi espacio personal donde comparto lo que estoy aprendiendo sobre informática y sistemas.</subtitle>
 
-    <!-- Artículos -->
+
     <entry>
         <title>Fundamentos del Hardware</title>
         <link href="https://saldaalejandro.github.io/proyectohtml/Paginas_Web/fundamentos.html" />
-        <id>https://saldaalejandro.github.io/proyectohtml/fundamentos-hardware.html</id>
+        <id>https://saldaalejandro.github.io/proyectohtml/Paginas_Web/fundamentos.html</id>
         <updated>2025-03-21T12:10:00+01:00</updated>
         <summary>Exploramos los componentes esenciales de un ordenador y su funcionamiento.</summary>
     </entry>
@@ -23,7 +23,7 @@
     <entry>
         <title>Uso de XML Schema</title>
         <link href="https://saldaalejandro.github.io/proyectohtml/Paginas_Web/Lenguajes_Marcas.html" />
-        <id>https://saldaalejandro.github.io/proyectohtml/xml-schema.html</id>
+        <id>https://saldaalejandro.github.io/proyectohtml/Paginas_Web/Lenguajes_Marcas.html</id>
         <updated>2025-03-21T12:15:00+01:00</updated>
         <summary>Aprende cómo XML Schema permite definir y validar la estructura de documentos XML.</summary>
     </entry>
@@ -31,14 +31,14 @@
     <entry>
         <title>Implantación de Sistemas Operativos</title>
         <link href="https://saldaalejandro.github.io/proyectohtml/Paginas_Web/Sistemas_Operativos.html" />
-        <id>https://saldaalejandro.github.io/proyectohtml/implantacion-so.html</id>
+        <id>https://saldaalejandro.github.io/proyectohtml/Paginas_Web/Sistemas_Operativos.html</id>
         <updated>2025-03-21T12:20:00+01:00</updated>
         <summary>Guía sobre la instalación y configuración de sistemas operativos en distintos entornos.</summary>
     </entry>
 
     <entry>
         <title>Administración de Bases de Datos</title>
-        <link href="https://saldaalejandro.github.io/proyectohtml/bases-datos.html" />
+        <link href="https://saldaalejandro.github.io/proyectohtml/Paginas_Web/Base_Datos.html" />
         <id>https://saldaalejandro.github.io/proyectohtml/Paginas_Web/Base_Datos.html</id>
         <updated>2025-03-21T12:25:00+01:00</updated>
         <summary>Conceptos clave sobre la gestión y optimización de bases de datos.</summary>
@@ -46,8 +46,8 @@
 
     <entry>
         <title>Redes y Comunicaciones</title>
-        <link href="https://saldaalejandro.github.io/proyectohtml/Paginas_Web/Administracion_Redes.html" />
-        <id>https://saldaalejandro.github.io/proyectohtml/redes.html</id>
+        <link href="https://saldaalejandro.github.io/proyectohtml/Paginas_Web/Base_Datos.html" />
+        <id>https://saldaalejandro.github.io/proyectohtml/Paginas_Web/Base_Datos.html</id>
         <updated>2025-03-21T12:30:00+01:00</updated>
         <summary>Principios de redes, protocolos y configuración de infraestructuras de comunicación.</summary>
     </entry>
