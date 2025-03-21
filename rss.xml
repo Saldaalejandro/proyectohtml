@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<!-- Información del canal -->
+		<title>Mi Portfolio</title>
+		<link>https://saldaalejandro.github.io/proyectohtml/</link>
+		<description>Mi espacio personal donde comparto lo que estoy aprendiendo sobre informática y sistemas.</description>
+		<category>informática/sistemas/bases de datos/redes</category>
+		<copyright>1º ASIR - LMSGI</copyright>
+		<image>
+			<url>https://via.placeholder.com/150</url>
+			<title>Mi Portfolio</title>
+			<link>https://saldaalejandro.github.io/proyectohtml/</link>
+			<width>150</width>
+			<height>150</height>
+		</image>
+		<language>es-es</language>
+		<lastBuildDate>Fri, 21 Mar 2025 12:00:00 +0100</lastBuildDate>
+		<webMaster>saldaalejandro@gmail.com</webMaster>
+
+		<!-- Artículos del canal -->
+		<item>
+			<title>Fundamentos del Hardware</title>
+			<description>Exploramos los componentes esenciales de un ordenador y su funcionamiento.</description>
+			<link>https://saldaalejandro.github.io/proyectohtml/fundamentos-hardware.html</link>
+			<author>saldaalejandro@gmail.com</author>
+			<category>hardware</category>
+			<pubDate>Fri, 21 Mar 2025 12:10:00 +0100</pubDate>
+		</item>
+		<item>
+			<title>Uso de XML Schema</title>
+			<description>Aprende cómo XML Schema permite definir y validar la estructura de documentos XML.</description>
+			<link>https://saldaalejandro.github.io/proyectohtml/xml-schema.html</link>
+			<author>saldaalejandro@gmail.com</author>
+			<category>xml</category>
+			<pubDate>Fri, 21 Mar 2025 12:15:00 +0100</pubDate>
+		</item>
+		<item>
+			<title>Implantación de Sistemas Operativos</title>
+			<description>Guía sobre la instalación y configuración de sistemas operativos en distintos entornos.</description>
+			<link>https://saldaalejandro.github.io/proyectohtml/implantacion-so.html</link>
+			<author>saldaalejandro@gmail.com</author>
+			<category>sistemas operativos</category>
+			<pubDate>Fri, 21 Mar 2025 12:20:00 +0100</pubDate>
+		</item>
+		<item>
+			<title>Administración de Bases de Datos</title>
+			<description>Conceptos clave sobre la gestión y optimización de bases de datos.</description>
+			<link>https://saldaalejandro.github.io/proyectohtml/bases-datos.html</link>
+			<author>saldaalejandro@gmail.com</author>
+			<category>bases de datos</category>
+			<pubDate>Fri, 21 Mar 2025 12:25:00 +0100</pubDate>
+		</item>
+		<item>
+			<title>Redes y Comunicaciones</title>
+			<description>Principios de redes, protocolos y configuración de infraestructuras de comunicación.</description>
+			<link>https://saldaalejandro.github.io/proyectohtml/redes.html</link>
+			<author>saldaalejandro@gmail.com</author>
+			<category>redes</category>
+			<pubDate>Fri, 21 Mar 2025 12:30:00 +0100</pubDate>
+		</item>
+	</channel>
+</rss>
